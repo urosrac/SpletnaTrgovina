@@ -1,0 +1,128 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.top-bar{
+    background-color: #23232d;
+
+    margin-top: 14px;
+
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.top-bar-container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-left{
+    /*padding-left: 15px;*/
+    padding-right: 15px;
+
+    width: 50%;
+    float: left;
+
+    height: 21px;/*temp solution*/
+    vertical-align: middle;
+
+    font-size: 10px;
+}
+
+.col-right{
+    padding-left: 15px;
+    /*padding-right: 15px;*/
+
+    margin-left: 50%;
+    text-align: right;
+
+    font-size: 10px;
+}
+
+.email{
+    color: #898989;
+    /*margin-right: 20px;*/
+}
+
+.phone{
+    color: #898989;
+    margin-right: 10px;
+}
+
+.phone-icon{
+     margin-right: 5px;
+}
+
+.basket-container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fa {
+  padding: 2.5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2.5px;
+  margin-right: 5px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.email-link{
+    text-decoration: none;
+    color: #898989;
+}
+.email-link:hover{
+    color: lightblue;
+}
+
+.logo-picture{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 14px;/*temp solution*/
+}
+
+.shopping-cart{
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+hr {
+  border-top: 0.5px solid lightgray;
+}
+
+.shopping-card-button{
+    font-size:20px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.shopping-card-button:hover{
+    cursor: pointer;
+}
+
+.navigation-container{
+    margin-left: 350px;
+    margin-bottom: 15px;
+}
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation-item {
+  display: inline;
+  padding: 10px 10px;
+}
