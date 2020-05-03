@@ -1,0 +1,9 @@
+#slideshow-wrapper #progressbar-container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#slideshow-wrapper #myBar {
+  height: 2px;
+  background-color: #4CAF50;
+}

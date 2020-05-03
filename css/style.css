@@ -77,6 +77,11 @@ body {
   color: white;
 }
 
+.fa-youtube-play{
+    background: white;
+    color: red;
+}
+
 .email-link{
     text-decoration: none;
     color: #898989;
@@ -114,15 +119,34 @@ hr {
 }
 
 .navigation-container{
-    margin-left: 350px;
+    margin-left: 300px;
     margin-bottom: 15px;
 }
+
 .navigation {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 .navigation-item {
   display: inline;
   padding: 10px 10px;
 }
+
+.navigation-item:hover{
+    cursor: pointer;
+}
+
+.hoverMTop{
+    display: inline-block;
+}
+.hoverMTop:after {
+  display:block;
+  content: '';
+  border: solid 1px green;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin:  0% 50%;
+}
+.hoverMTop:hover:after { transform: scaleX(1); }
