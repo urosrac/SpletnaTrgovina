@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -28,7 +29,7 @@
                 <div class="col-right">
                     <a class="fa fa-facebook" title="Facebook" href="https://www.facebook.com/"></a>
                     <a class="fa fa-linkedin" title="linkedin" href="https://www.linkedin.com/"></a>
-                    <a class="fa fa-youtube-play" title="Youtube" href="https://www.youtube.com/"></a>
+                    <a style="vertical-align: baseline;" class="fa fa-youtube-play" title="Youtube" href="https://www.youtube.com/"></a>
                 </div>
             </div>
         </div>
@@ -39,7 +40,7 @@
                         <img class="logo-picture" src="Brez naslova.png">
                     </a>
                 </div>
-                <span class="shopping-cart"><button class="shopping-card-button"><i class="fa fa-shopping-cart"></i>100 &euro;</button></span>
+                <span class="shopping-cart"><!--<button class="shopping-card-button"><i class="fa fa-shopping-cart"></i>100 &euro;</button>--></span>
             </div>
         </div>
         <hr/>
@@ -69,18 +70,35 @@
         </div>-->
     </div>
     <script src="javascript/slideshow.js"></script>
-    <script src="javascript/progressbar.js"></script>
+    <!--<script src="javascript/progressbar.js"></script>-->
     </div>
     <div class="our-sewing-shop">
         <div class="our-sewing-shop-container">
-            <h2 id="name-of-shop">Our sewing shop</h2>
-            <p id="shop-name-description">Our description</p>
+            <h2 class="name-of-shop">Our sewing shop</h2>
+            <p class="shop-name-description">Our short description</p>
         </div>
-        <div style="width: 100%; display: table;">
-            <div style="display: table-row">
-                <div style="width: 600px; display: table-cell;"> Left </div>
-                <div style="display: table-cell;"> Right </div>
+        <div style="width: 100%; overflow: hidden;">
+            <div style="width: 200px; float: left;">
+                <figure class="frame-img" style="margin-left: 100px;"><img src="img/sewing/our-sewing-shop.png" alt="Image Frame" style="width:250px;height:200px;"/></figure>
             </div>
+            <div style="width: 800px; float: right;">
+                <h2><span style="border-bottom: 1px solid #000; padding-bottom: 10px;">O NAS</span></h2>
+                <div class="our-sewing-shop-description-p" style="margin-top: 25px;">
+                    <p style="padding-right: 100px; word-wrap: break-word;">Opis1 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</p>
+                    <p style="padding-right: 100px; word-wrap: break-word;">Opis1 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</p>
+                </div>
+            </div>
+        </div>
+        <div style="margin-left: 440px;">
+            <a class="fa fa-facebook" title="Facebook" href="https://www.facebook.com/"></a>
+            <a class="fa fa-linkedin" title="linkedin" href="https://www.linkedin.com/"></a>
+            <a style="background-color: #f7f7f7; vertical-align: text-bottom;"class="fa fa-youtube-play" title="Youtube" href="https://www.youtube.com/"></a>
+        </div>
+    </div>
+    <div class="sewing-shop-choise">
+        <div class="sewing-shop-choise-container">
+            <h2 class="name-of-shop">Our products</h2>
+            <p class="shop-name-description">Our short description for products</p>
         </div>
     </div>
 </body>

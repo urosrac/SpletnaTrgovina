@@ -60,29 +60,33 @@ body {
 }
 
 .fa {
-  height: 15px;
-  width: 15px;
+  /*height: 15px;
+  width: 15px;*/
   padding: 2.5px;
   text-align: center;
   text-decoration: none;
   border-radius: 2.5px;
   margin-right: 5px;
-  font-size: 15px;
+  font-size: 25px;
+  vertical-align: super;
 }
 
 .fa-facebook {
   background: #3B5998;
   color: white;
+  font-size: 15px;
 }
 
 .fa-linkedin {
   background: #007bb5;
   color: white;
+  font-size: 15px;
 }
 
 .fa-youtube-play{
    background: white;
    color: red;
+   padding: 0;
 }
 
 .email-link{
@@ -154,7 +158,7 @@ hr {
 }
 .hoverMTop:hover:after { transform: scaleX(1); }
 
-#name-of-shop{
+.name-of-shop{
     display: grid;
     grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
     align-items: center;
@@ -166,8 +170,8 @@ hr {
     padding-top: 20px;
 }
 
-#name-of-shop:before,
-#name-of-shop:after {
+.name-of-shop:before,
+.name-of-shop:after {
     content: '';
     border-top: 1px solid black;
     height: 3px;
@@ -175,15 +179,25 @@ hr {
 }
 
 .our-sewing-shop{
-    top 0;
     background-color: #f7f7f7;
+    padding-bottom: 100px;
 }
 
 .our-sewing-shop-container{
     margin: 0px 150px;
+    margin-bottom: 30px;
 }
 
-#shop-name-description{
+.shop-name-description{
     margin: 0 0;
     text-align: center;
+}
+
+.sewing-shop-choise{
+    padding-bottom: 100px;
+}
+
+.sewing-shop-choise-container{
+    margin: 0px 150px;
+    margin-bottom: 30px;
 }
