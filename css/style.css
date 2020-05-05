@@ -27,7 +27,7 @@ body {
     height: 21px;/*temp solution*/
     vertical-align: middle;
 
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .col-right{
@@ -37,7 +37,7 @@ body {
     margin-left: 50%;
     text-align: right;
 
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .email{
@@ -60,11 +60,14 @@ body {
 }
 
 .fa {
+  height: 15px;
+  width: 15px;
   padding: 2.5px;
   text-align: center;
   text-decoration: none;
   border-radius: 2.5px;
   margin-right: 5px;
+  font-size: 15px;
 }
 
 .fa-facebook {
@@ -78,8 +81,8 @@ body {
 }
 
 .fa-youtube-play{
-    background: white;
-    color: red;
+   background: white;
+   color: red;
 }
 
 .email-link{
@@ -150,3 +153,37 @@ hr {
   transform-origin:  0% 50%;
 }
 .hoverMTop:hover:after { transform: scaleX(1); }
+
+#name-of-shop{
+    display: grid;
+    grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+    align-items: center;
+    text-align: center;
+    grid-gap: 20px;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+#name-of-shop:before,
+#name-of-shop:after {
+    content: '';
+    border-top: 1px solid black;
+    height: 3px;
+    border-bottom: 1px solid black;
+}
+
+.our-sewing-shop{
+    top 0;
+    background-color: #f7f7f7;
+}
+
+.our-sewing-shop-container{
+    margin: 0px 150px;
+}
+
+#shop-name-description{
+    margin: 0 0;
+    text-align: center;
+}

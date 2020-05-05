@@ -11,10 +11,10 @@ $(document).ready(function(){ //wait until page is fully loaded
 	var slide_number = 1;
 
 	//sets which circle is highlighted depending on the integer fed into it
-	var setCircle = function(input_circle){
+	/*var setCircle = function(input_circle){
 
 		//set all circles to grey
-		for(x=1;x <= NUMBER_OF_SLIDES; x++){
+		for(x=1; x <= NUMBER_OF_SLIDES; x++){
 			$("#circle" + x).css({
 				"background-color": "lightgrey"
 			});
@@ -27,7 +27,7 @@ $(document).ready(function(){ //wait until page is fully loaded
 	}
 
 	//initialy setting the first circle to be brown, before the slideshow starts manipulating them
-	setCircle(1);
+	setCircle(1);*/
 
 	//every 4 seconds(excluding the 500ms slide effect), slide to the next image, and set the appropriate circle to be brown
 	setInterval(function(){
@@ -44,7 +44,7 @@ $(document).ready(function(){ //wait until page is fully loaded
 			},1000);
 			slide_number = 1;
 		}
-		setCircle(slide_number);
+		/*setCircle(slide_number);*/
 
 	}, 7000);
 });
