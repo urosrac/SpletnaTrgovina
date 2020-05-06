@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
 }
-
+/*ZGORNJA NAVIGACIJA*/
 .top-bar{
     background-color: #23232d;
 
@@ -10,65 +10,54 @@ body {
 
     padding-top: 14px;
     padding-bottom: 14px;
+
+    font-size: 15px;
 }
 
 .top-bar-container{
-    padding-left: 15px;
-    padding-right: 15px;
+    overflow: hidden;
+    width: 100%;
 }
 
 .col-left{
-    /*padding-left: 15px;*/
-    padding-right: 15px;
-
+    padding-left: 15px;
     width: 50%;
     float: left;
-
-    height: 21px;/*temp solution*/
-    vertical-align: middle;
-
-    font-size: 15px;
 }
-
-.col-right{
-    padding-left: 15px;
-    /*padding-right: 15px;*/
-
-    margin-left: 50%;
-    text-align: right;
-
-    font-size: 15px;
-}
-
-.email{
-    color: #898989;
-    /*margin-right: 20px;*/
-}
-
+/*levi-stolpec-podatki*/
 .phone{
     color: #898989;
     margin-right: 10px;
 }
 
-.phone-icon{
-     margin-right: 5px;
+.email{
+    color: #898989;
 }
-
-.basket-container{
-    padding-left: 15px;
+/*levi-stolpec-podatki*/
+.col-right{
     padding-right: 15px;
+    margin-left: 50%;
+    text-align: right;
 }
-
+.email-link{
+    text-decoration: none;
+    color: #898989;
+}
+.email-link:hover{
+    color: lightblue;
+}
+/*desni-stolpec-podatki*/
+.phone-icon{
+    margin-right: 5px;
+    font-size: 15px;
+}
 .fa {
-  /*height: 15px;
-  width: 15px;*/
   padding: 2.5px;
   text-align: center;
   text-decoration: none;
   border-radius: 2.5px;
   margin-right: 5px;
   font-size: 25px;
-  vertical-align: super;
 }
 
 .fa-facebook {
@@ -88,15 +77,10 @@ body {
    color: red;
    padding: 0;
 }
+/*desni-stolpec-podatki*/
+/*ZGORNJA NAVIGACIJA*/
 
-.email-link{
-    text-decoration: none;
-    color: #898989;
-}
-.email-link:hover{
-    color: lightblue;
-}
-
+/*LOGO*/
 .logo-picture{
     width: 100px;
     height: 100px;
@@ -104,17 +88,18 @@ body {
     left: 50%;
     top: 14px;/*temp solution*/
 }
+/*LOGO*/
 
+/*BASKET*/
+.basket-container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .shopping-cart{
     float: right;
     margin-top: 25px;
     margin-bottom: 25px;
 }
-
-hr {
-  border-top: 0.5px solid lightgray;
-}
-
 .shopping-card-button{
     font-size:20px;
     border: none;
@@ -124,10 +109,16 @@ hr {
 .shopping-card-button:hover{
     cursor: pointer;
 }
+/*BASKET*/
 
+hr {
+  border: 0.5px solid black;
+}
+
+/*NAVIGATION*/
 .navigation-container{
-    margin-left: 300px;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .navigation {
@@ -144,7 +135,6 @@ hr {
 .navigation-item:hover{
     cursor: pointer;
 }
-
 .hoverMTop{
     display: inline-block;
 }
@@ -157,8 +147,10 @@ hr {
   transform-origin:  0% 50%;
 }
 .hoverMTop:hover:after { transform: scaleX(1); }
+/*NAVIGATION*/
 
-.name-of-shop{
+/*TITLES*/
+.title-shop{
     display: grid;
     grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
     align-items: center;
@@ -170,14 +162,18 @@ hr {
     padding-top: 20px;
 }
 
-.name-of-shop:before,
-.name-of-shop:after {
+.title-shop:before,
+.title-shop:after {
     content: '';
     border-top: 1px solid black;
     height: 3px;
     border-bottom: 1px solid black;
 }
-
+.shop-name-description{
+    margin: 0 0;
+    text-align: center;
+}
+/*Title1*/
 .our-sewing-shop{
     background-color: #f7f7f7;
     padding-bottom: 100px;
@@ -187,12 +183,8 @@ hr {
     margin: 0px 150px;
     margin-bottom: 30px;
 }
-
-.shop-name-description{
-    margin: 0 0;
-    text-align: center;
-}
-
+/*Title1*/
+/*Title2*/
 .sewing-shop-choise{
     padding-bottom: 100px;
 }
@@ -201,3 +193,6 @@ hr {
     margin: 0px 150px;
     margin-bottom: 30px;
 }
+/*Title2*/
+/*TITLES*/
+

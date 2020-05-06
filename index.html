@@ -15,15 +15,20 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/slideshow.css"/>
     <link rel="stylesheet" type="text/css" href="css/progressbar.css"/>
+    <link rel="stylesheet" type="text/css" href="css/parallax.css"/>
     <title>Šiviljstvo</title>
-
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
 </head>
 <body>
     <header>
         <div class="top-bar">
-            <div class="container top-bar-container">
+            <div class="top-bar-container">
                 <div class="col-left">
-                    <span class="phone"><i class="material-icons phone-icon" style="font-size:15px">phone_iphone</i><em>+386 000 000 000</em></span>
+                    <span class="phone"><i class="material-icons phone-icon">phone_iphone</i><em>+386 000 000 000</em></span>
                     <span class="email"><i class="fa fa-send" style="font-size:15px"></i><em><a class="email-link" href="mailto:info@sewing.com">info@sewing.com</a></em></span>
                 </div>
                 <div class="col-right">
@@ -33,13 +38,13 @@
                 </div>
             </div>
         </div>
+        <div class="logo">
+            <a href="#">
+                <img class="logo-picture" src="Brez naslova.png">
+            </a>
+        </div>
         <div class="mid-bar">
-            <div class="container basket-container" style="overflow: hidden;">
-                <div class="logo">
-                    <a href="#">
-                        <img class="logo-picture" src="Brez naslova.png">
-                    </a>
-                </div>
+            <div class="basket-container" style="overflow: hidden;">
                 <span class="shopping-cart"><!--<button class="shopping-card-button"><i class="fa fa-shopping-cart"></i>100 &euro;</button>--></span>
             </div>
         </div>
@@ -71,13 +76,12 @@
     </div>
     <script src="javascript/slideshow.js"></script>
     <!--<script src="javascript/progressbar.js"></script>-->
-    </div>
     <div class="our-sewing-shop">
         <div class="our-sewing-shop-container">
-            <h2 class="name-of-shop">Our sewing shop</h2>
+            <h2 class="title-shop">Our sewing shop</h2>
             <p class="shop-name-description">Our short description</p>
         </div>
-        <div style="width: 100%; overflow: hidden;">
+        <!--<div style="width: 100%; overflow: hidden;">
             <div style="width: 200px; float: left;">
                 <figure class="frame-img" style="margin-left: 100px;"><img src="img/sewing/our-sewing-shop.png" alt="Image Frame" style="width:250px;height:200px;"/></figure>
             </div>
@@ -88,18 +92,56 @@
                     <p style="padding-right: 100px; word-wrap: break-word;">Opis1 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</p>
                 </div>
             </div>
-        </div>
-        <div style="margin-left: 440px;">
-            <a class="fa fa-facebook" title="Facebook" href="https://www.facebook.com/"></a>
-            <a class="fa fa-linkedin" title="linkedin" href="https://www.linkedin.com/"></a>
-            <a style="background-color: #f7f7f7; vertical-align: text-bottom;"class="fa fa-youtube-play" title="Youtube" href="https://www.youtube.com/"></a>
-        </div>
+        </div>-->
+        <table style="table-layout: fixed; width: 100%;">
+            <tr>
+                <td rowspan="4">
+                    <figure>
+                        <img style="width:200px;height:200px;" src="img/sewing/our-sewing-shop.png" alt="Image Frame"/>
+                    </figure>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2><span style="border-bottom: 1px solid #000; padding-bottom: 10px;">O NAS</span></h2>
+                </td>
+            </tr>
+            <tr>
+                <td style="word-wrap: break-word;"><p>Opis1 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</p></td>
+            </tr>
+            <tr>
+                <td style="word-wrap: break-word;"><p>Opis1 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</p></td>
+            </tr>
+        </table>
     </div>
     <div class="sewing-shop-choise">
         <div class="sewing-shop-choise-container">
-            <h2 class="name-of-shop">Our products</h2>
+            <h2 class="title-shop">Our newest products</h2>
             <p class="shop-name-description">Our short description for products</p>
         </div>
+    </div>
+    <div class="sewing-shop-choise-menu">
+        <div class="sewing-shop-choise-menu-container">
+            <div class="parallax1">
+                <div>
+                    Write text here.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="padding-top:100px;padding-bottom:100px;">
+        <table style="table-layout: fixed; width: 100%;">
+            <tr>
+                <th>Naslov1</th>
+                <th>Naslov2</th>
+                <th>Naslov3</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>
