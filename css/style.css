@@ -42,6 +42,7 @@ body {
 .email-link{
     text-decoration: none;
     color: #898989;
+    word-wrap: break-word;
 }
 .email-link:hover{
     color: lightblue;
@@ -61,15 +62,24 @@ body {
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background-color: gray;
+  color: white;
+  font-size: 15px;
+  /*border: 1px solid black;*/
+}
+
+.fa-facebook:hover {
+    background-color: #3B5998;
+}
+
+.fa-linkedin {
+  background-color: gray;
   color: white;
   font-size: 15px;
 }
 
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-  font-size: 15px;
+.fa-linkedin:hover {
+    background-color: #007bb5;
 }
 
 .fa-youtube-play{
@@ -180,7 +190,7 @@ hr {
 }
 
 .our-sewing-shop-container{
-    margin: 0px 150px;
+    margin: 0px 50px;
     /*margin-bottom: 30px;*/
 }
 /*Title1*/
@@ -190,7 +200,7 @@ hr {
 }
 
 .sewing-shop-choise-container{
-    margin: 0px 150px;
+    margin: 0px 50px;
     margin-bottom: 30px;
 }
 /*Title2*/
