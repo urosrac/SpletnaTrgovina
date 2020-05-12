@@ -32,6 +32,7 @@ body {
 
 .email{
     color: #898989;
+    font-size:15px;
 }
 /*levi-stolpec-podatki*/
 .col-right{
@@ -47,11 +48,11 @@ body {
 .email-link:hover{
     color: lightblue;
 }
-/*desni-stolpec-podatki*/
 .phone-icon{
     margin-right: 5px;
     font-size: 15px;
 }
+/*desni-stolpec-podatki*/
 .fa {
   padding: 2.5px;
   text-align: center;
@@ -104,6 +105,7 @@ body {
 .basket-container{
     padding-left: 15px;
     padding-right: 15px;
+    overflow: hidden;
 }
 .shopping-cart{
     float: right;
@@ -193,7 +195,28 @@ hr {
     margin: 0px 50px;
     /*margin-bottom: 30px;*/
 }
+.our-sewing-shop-table-container{
+    margin-right:50px;
+}
+.our-sewing-shop-table{
+    table-layout: fixed;
+    width: 100%;
+}
+.table1-image-row{
+    text-align:right;
+    vertical-align:top;
+    padding: 0px 25px;
+}
+.table1-title{
+     margin-top:0;
+     padding-bottom: 10px;
+     vertical-align:top;
+}
+.table1-content{
+    word-wrap: break-word;
+}
 /*Title1*/
+
 /*Title2*/
 .sewing-shop-choise{
     padding-bottom: 100px;
@@ -204,5 +227,18 @@ hr {
     margin-bottom: 30px;
 }
 /*Title2*/
+
+/*Title3*/
+.parallax1{
+    position:relative;
+}
+
+.parallax1-container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+/*Title3*/
 /*TITLES*/
 
