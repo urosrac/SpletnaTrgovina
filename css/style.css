@@ -13,12 +13,10 @@ body {
 
     font-size: 15px;
 }
-
 .top-bar-container{
     overflow: hidden;
     width: 100%;
 }
-
 .col-left{
     padding-left: 15px;
     width: 50%;
@@ -29,7 +27,6 @@ body {
     color: #898989;
     margin-right: 10px;
 }
-
 .email{
     color: #898989;
     font-size:15px;
@@ -61,28 +58,23 @@ body {
   margin-right: 5px;
   font-size: 25px;
 }
-
 .fa-facebook {
   background-color: gray;
   color: white;
   font-size: 15px;
   /*border: 1px solid black;*/
 }
-
 .fa-facebook:hover {
     background-color: #3B5998;
 }
-
 .fa-linkedin {
   background-color: gray;
   color: white;
   font-size: 15px;
 }
-
 .fa-linkedin:hover {
     background-color: #007bb5;
 }
-
 .fa-youtube-play{
    background: white;
    color: red;
@@ -90,7 +82,6 @@ body {
 }
 /*desni-stolpec-podatki*/
 /*ZGORNJA NAVIGACIJA*/
-
 /*LOGO*/
 .logo-picture{
     width: 100px;
@@ -100,7 +91,6 @@ body {
     top: 14px;/*temp solution*/
 }
 /*LOGO*/
-
 /*BASKET*/
 .basket-container{
     padding-left: 15px;
@@ -122,28 +112,23 @@ body {
     cursor: pointer;
 }
 /*BASKET*/
-
 hr {
   border: 0.5px solid black;
 }
-
 /*NAVIGATION*/
 .navigation-container{
     margin-bottom: 15px;
     text-align: center;
 }
-
 .navigation {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 .navigation-item {
   display: inline;
   padding: 10px 10px;
 }
-
 .navigation-item:hover{
     cursor: pointer;
 }
@@ -160,7 +145,6 @@ hr {
 }
 .hoverMTop:hover:after { transform: scaleX(1); }
 /*NAVIGATION*/
-
 /*TITLES*/
 .title-shop{
     display: grid;
@@ -173,7 +157,6 @@ hr {
     margin-top: 0px;
     padding-top: 20px;
 }
-
 .title-shop:before,
 .title-shop:after {
     content: '';
@@ -190,7 +173,6 @@ hr {
     background-color: #f7f7f7;
     padding-bottom: 100px;
 }
-
 .our-sewing-shop-container{
     margin: 0px 50px;
     /*margin-bottom: 30px;*/
@@ -214,25 +196,22 @@ hr {
 }
 .table1-content{
     word-wrap: break-word;
+    vertical-align:top;
 }
 /*Title1*/
-
 /*Title2*/
 .sewing-shop-choise{
     padding-bottom: 100px;
 }
-
 .sewing-shop-choise-container{
     margin: 0px 50px;
     margin-bottom: 30px;
 }
 /*Title2*/
-
 /*Title3*/
 .parallax1{
     position:relative;
 }
-
 .parallax1-container{
     position:absolute;
     top:50%;
@@ -240,5 +219,65 @@ hr {
     transform: translate(-50%, -50%);
 }
 /*Title3*/
+/*Title4*/
+.presentation-of-sewing-shop{
+     padding-top:100px;
+     padding-bottom:100px;
+     background-color:#f7f7f7;
+}
+.presentation-of-sewing-shop-container{
+    margin-left:10%;
+    margin-right:10%;
+}
+.presentation-of-sewing-shop-table{
+     table-layout: fixed;
+     width: 100%;
+}
+.presentation-of-sewing-shop-title{
+     float:left;
+}
+.text-align-table-titles{
+     vertical-align: top;
+}
+/*Title4*/
+/*Motivation*/
+.motivation-container{
+     background-color: #6699ff;
+}
+.motivation-container-sub{
+     margin-left:5%;
+     margin-right:5%;
+}
+.motivation-table{
+     table-layout: fixed;
+     width: 100%;
+}
+.motivation-row-button{
+     text-align:right;
+     width:100px;
+}
+.motivation-row-button-link{
+     color: white;
+     background-color: #000066;
+     padding: 10px 10px;
+     text-align: center;
+     border-radius:5px;
+     white-space: nowrap;
+     width:100%;
+     text-decoration: none;
+}
+/*Motivation*/
+/*Copyright*/
+.copyright-container{
+     height: 200px;
+     text-align: center;
+     background-color: #23232d;
+}
+.copyright-div{
+    padding-bottom:20px;
+}
+.copyright-text{
+    color: #898989;
+}
+/*Copyright*/
 /*TITLES*/
-
