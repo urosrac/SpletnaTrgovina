@@ -13,6 +13,7 @@
   crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/images.css"/>
     <link rel="stylesheet" type="text/css" href="css/slideshow.css"/>
     <link rel="stylesheet" type="text/css" href="css/progressbar.css"/>
     <link rel="stylesheet" type="text/css" href="css/parallax.css"/>
@@ -82,23 +83,15 @@
             <h2 class="title-shop">Our sewing shop</h2>
             <p class="shop-name-description">Our short description</p>
         </div>
-        <!--<div style="width: 100%; overflow: hidden;">
-            <div style="width: 200px; float: left;">
-                <figure class="frame-img" style="margin-left: 100px;"><img src="img/sewing/our-sewing-shop.png" alt="Image Frame" style="width:250px;height:200px;"/></figure>
-            </div>
-            <div style="width: 800px; float: right;">
-                <h2><span style="border-bottom: 1px solid #000; padding-bottom: 10px;">O NAS</span></h2>
-                <div class="our-sewing-shop-description-p" style="margin-top: 25px;">
-                    <p style="padding-right: 100px; word-wrap: break-word;">Opis1 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</p>
-                    <p style="padding-right: 100px; word-wrap: break-word;">Opis1 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</p>
-                </div>
-            </div>
-        </div>-->
         <div class="our-sewing-shop-table-container">
             <table class="our-sewing-shop-table">
                 <tr>
                     <td rowspan="5" class="table1-image-row">
-                        <img style="width: 250px;height:250px;" src="img/sewing/our-sewing-shop.png" alt="Image Frame"/>
+                        <div>
+                            <figure class="frame-img">
+                                <img style="max-width: 100%;max-height: 100%;display: block;z-index:2;position:relative; border:1px solid black;" src="img/sewing/our-sewing-shop.png"/>
+                            </figure>
+                        </div>
                     </td>
                 </tr>
                 <tr>
@@ -136,15 +129,15 @@
             <div class="parallax1-container">
                 <table>
                   <tr>
-                      <td rowspan="2">
+                      <td rowspan="2" style="padding:50px;">
                           <img style="width: 150px;height: 150px;vertical-align:top;" src="img/Brez naslova1.png"/>
                       </td>
-                      <td>Oblačila</td>
-                      <td>Puloverji</td>
+                      <td style="padding:50px;">Oblačila</td>
+                      <td style="padding:50px;">Puloverji</td>
                   </tr>
                   <tr>
-                      <td>Maske</td>
-                      <td>Majice</td>
+                      <td style="padding:50px;">Maske</td>
+                      <td style="padding:50px;">Majice</td>
                   </tr>
                 </table>
             </div>
@@ -182,8 +175,8 @@
                     </td>
                 </tr>
                 <tr>
-                    <td rowspan="4">
-                        <ul>
+                    <td rowspan="4" style="vertical-align:top;">
+                        <ul style="list-style-type: none;">
                             <li>1</li>
                             <li>2</li>
                             <li>3</li>
