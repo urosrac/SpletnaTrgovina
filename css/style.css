@@ -210,13 +210,28 @@ hr {
 /*Title2*/
 /*Title3*/
 .parallax1{
-    position:relative;
+    display: table;
 }
 .parallax1-container{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+  display: table-cell;
+  vertical-align: middle;
+}
+.ghost-center{
+    position:relative;
+    background-color: white;
+    border: 1px solid black;
+}
+.ghost-center:before{
+  content: " ";
+  display: inline-block;
+  height: 100%;
+  width: 1%;
+  vertical-align: middle;
+}
+.ghost-center span {
+  display: inline-block;
+  vertical-align: middle;
+  padding:25px;
 }
 /*Title3*/
 /*Title4*/
@@ -238,6 +253,13 @@ hr {
 }
 .text-align-table-titles{
      vertical-align: top;
+}
+.link-read-more{
+     text-decoration:none;
+     color:black;
+}
+.link-read-more:hover{
+    color: lightblue;
 }
 /*Title4*/
 /*Motivation*/
