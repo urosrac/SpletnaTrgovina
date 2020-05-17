@@ -9,18 +9,19 @@ body {
     margin-top: 14px;
 
     padding-top: 14px;
-    padding-bottom: 14px;
+    margin-bottom: 120px;
 
-    font-size: 15px;
+    height: 50px;
+    position: relative;
 }
 .top-bar-container{
-    overflow: hidden;
-    width: 100%;
+    display: flex;
+}
+.top-bar-container > div {
+  flex: 1;
 }
 .col-left{
     padding-left: 15px;
-    width: 50%;
-    float: left;
 }
 /*levi-stolpec-podatki*/
 .phone{
@@ -30,11 +31,11 @@ body {
 .email{
     color: #898989;
     font-size:15px;
+    white-space:nowrap;
 }
 /*levi-stolpec-podatki*/
 .col-right{
     padding-right: 15px;
-    margin-left: 50%;
     text-align: right;
 }
 .email-link{
@@ -68,7 +69,6 @@ body {
   color: white;
   font-size: 15px;
   transition: background 0.5s linear;
-  /*border: 1px solid black;*/
 }
 .fa-facebook:hover {
     background-color: #3B5998;
@@ -91,18 +91,16 @@ body {
 /*ZGORNJA NAVIGACIJA*/
 /*LOGO*/
 .logo-picture{
-    width: 100px;
-    height: 100px;
+    height: 150px;
     position: absolute;
-    left: 50%;
-    top: 14px;/*temp solution*/
+    top: 0px;
 }
 /*LOGO*/
 /*BASKET*/
 .basket-container{
     padding-left: 15px;
     padding-right: 15px;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .shopping-cart{
     float: right;
@@ -182,7 +180,6 @@ hr {
 }
 .our-sewing-shop-container{
     margin: 0px 50px;
-    /*margin-bottom: 30px;*/
 }
 .our-sewing-shop-table-container{
     margin-right:50px;
@@ -229,7 +226,10 @@ hr {
     border: 1px solid black;
 }
 .ghost-center:hover{
-    background-image:url(../img/sewing/our-sewing-shop.png);
+    background-image:url(../img/PojavnaSlika.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center;
 }
 .ghost-center:before{
   content: " ";
@@ -264,12 +264,19 @@ hr {
 .presentation-of-sewing-shop-title{
      float:left;
 }
+.add-color-link-email{
+     color:black;
+}
 .text-align-table-titles{
      vertical-align: top;
 }
 .link-read-more{
      text-decoration:none;
      color:black;
+     -webkit-transition: all 0.5s ease-in;
+        -moz-transition: all 0.5s ease-in;
+        -o-transition: all 0.5s ease-in;
+        transition: all 0.5s ease-in;
 }
 .link-read-more:hover{
     color: lightblue;

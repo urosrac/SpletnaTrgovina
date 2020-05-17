@@ -1,5 +1,6 @@
 .frame-img{
     position:relative;
+    max-width: 300px;
     /*z-index:2;*/
 }
 .frame-img::before,
