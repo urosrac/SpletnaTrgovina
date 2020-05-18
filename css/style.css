@@ -57,7 +57,7 @@ body {
 }
 /*desni-stolpec-podatki*/
 .fa {
-  padding: 2.5px;
+  padding: 5px;
   text-align: center;
   text-decoration: none;
   border-radius: 2.5px;
@@ -67,7 +67,6 @@ body {
 .fa-facebook {
   background-color: gray;
   color: white;
-  font-size: 15px;
   transition: background 0.5s linear;
 }
 .fa-facebook:hover {
@@ -76,7 +75,6 @@ body {
 .fa-linkedin {
   background-color: gray;
   color: white;
-  font-size: 15px;
   transition: background 0.5s linear;
 }
 .fa-linkedin:hover {
@@ -100,7 +98,6 @@ body {
 .basket-container{
     padding-left: 15px;
     padding-right: 15px;
-    /*overflow: hidden;*/
 }
 .shopping-cart{
     float: right;
@@ -176,10 +173,11 @@ hr {
 /*Title1*/
 .our-sewing-shop{
     background-color: #f7f7f7;
-    padding-bottom: 100px;
+    padding-bottom: 25px;
 }
 .our-sewing-shop-container{
     margin: 0px 50px;
+    padding-bottom: 25px;
 }
 .our-sewing-shop-table-container{
     margin-right:50px;
@@ -195,8 +193,8 @@ hr {
 }
 .table1-title{
      margin-top:0;
-     padding-bottom: 10px;
      vertical-align:top;
+     margin-bottom: 0px;
 }
 .table1-content{
     word-wrap: break-word;
@@ -222,8 +220,9 @@ hr {
 }
 .ghost-center{
     position:relative;
-    background-color: white;
+    background-image:url(../img/PojavnaSlikaBela.jpg);
     border: 1px solid black;
+    transition: background-image 0.5s;
 }
 .ghost-center:hover{
     background-image:url(../img/PojavnaSlika.jpg);
@@ -249,8 +248,8 @@ hr {
 /*Title3*/
 /*Title4*/
 .presentation-of-sewing-shop{
-     padding-top:100px;
-     padding-bottom:100px;
+     padding-top:25px;
+     padding-bottom:25px;
      background-color:#f7f7f7;
 }
 .presentation-of-sewing-shop-container{
@@ -274,9 +273,9 @@ hr {
      text-decoration:none;
      color:black;
      -webkit-transition: all 0.5s ease-in;
-        -moz-transition: all 0.5s ease-in;
-        -o-transition: all 0.5s ease-in;
-        transition: all 0.5s ease-in;
+     -moz-transition: all 0.5s ease-in;
+     -o-transition: all 0.5s ease-in;
+     transition: all 0.5s ease-in;
 }
 .link-read-more:hover{
     color: lightblue;
