@@ -1,2 +1,2 @@
 # SpletnaTrgovina
-Spletna stran
+Spletna trgovina oblačil
